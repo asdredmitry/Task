@@ -19,8 +19,6 @@ int main(void)
 	FILE* fin = NULL;
 	clock_t t;
 
-	system("echo \"[3;31mThanks to Yurii Silaev, whose program you are using now![0;m\"");
-
 	printf("Input mode : 1 - from file \"%s\".\n", INPUT_FILE_NAME);
 	printf("             2 - from formula.\n");
 	printf("-> ");
