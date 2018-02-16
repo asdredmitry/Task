@@ -1,6 +1,6 @@
 main.o : main.c
 	g++ -c main.c -o main.o
-matrix.o : matrix.o 
+matrix.o : matrix.c 
 	g++ -c matrix.c -o matrix.o
 task.o : task.c
 	g++ -c task.c -o task.o
