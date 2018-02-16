@@ -1,8 +1,8 @@
-main.o : main.c
-	g++ -c main.c -o main.o
-matrix.o : matrix.c 
-	g++ -c matrix.c -o matrix.o
-task.o : task.c
-	g++ -c task.c -o task.o
+main.o : main.cpp
+	g++ -c main.cpp -o main.o
+matrix.o : matrix.cpp 
+	g++ -c matrix.cpp -o matrix.o
+task.o : task.cpp
+	g++ -c task.cpp -o task.o
 main : main.o matrix.o task.o 
 	g++ main.o matrix.o task.o -o main
